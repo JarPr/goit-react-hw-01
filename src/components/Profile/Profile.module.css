@@ -1,0 +1,41 @@
+.profileCard {
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.userProfile {
+    padding: 20px;
+}
+
+.profileImg {
+    margin: 0 auto;
+    max-width: 200px;
+    background-color: rgb(50, 49, 49);
+    border-radius: 50%;
+}
+
+.profilName {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.profilTag {
+    color: grey;
+}
+
+.profilLocation {
+    color: grey;
+    font-weight: 500;
+}
+
+.userStats {
+    color: black;
+    display: flex;
+    background-color: #d3d3d3;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
