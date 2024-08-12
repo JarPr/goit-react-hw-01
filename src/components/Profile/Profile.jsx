@@ -12,18 +12,18 @@ export default function Profile({ name, tag, location, image, stats }) {
         <p className={css.profilLocation}>{location}</p>
       </div>
       
-      <ul className={css.userStats}>
-        <li>
+      <ul className={css.profileRecord}>
+        <li className={css.record}>
           <span>Followers</span>
-          <span>{stats.followers}</span>
+          <span className={css.recordValue}>{stats.followers}</span>
         </li>   
-        <li>
+        <li className={css.record}>
           <span>Views</span>
-          <span>{stats.views}</span>
+          <span className={css.recordValue}>{stats.views}</span>
         </li>        
-        <li>
+        <li className={css.record}>
           <span>Likes</span>
-          <span>{stats.likes}</span>
+          <span className={css.recordValue}>{stats.likes}</span>
         </li>
       </ul>
 
